@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cédric Deswarte</title>
+    <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li>Home</li>
+                <li><a href="#about_me"></a>Présentation</li>
+                <li><a href="#skills"></a>Skills</li>
+                <li><a href="#cv"></a>CV</li>
+                    <ul>
+                        <li><a href="#parcours_pro"></a>Parcours professionnel</li>
+                        <li><a href="#testimonials"></a>Recommandations</li>
+                    </ul>
+                <li><a href="#portfolio"></a>Portfolio</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <img src="img/" alt="Logo Cédric">
+            <h1>Cédric Deswarte</h1>
+            <p>Développeur Web en formation, Formateur</p>
+        </section>
+        <section id="about_me" class="presentation">
+            <div>
+                <img id="photo_cv" src="img/photo_cv.jpg" alt="Photo d'identité">
+            </div>
+            <div>
+                <p><strong id="categorie">Nom Prénom: </strong> <span>Cédric Deswarte</span></p>
+                <p><strong id="categorie">Email: </strong> <span>cedric.deswarte81@gmail.com</span></p>
+                <p><strong id="categorie">Mobile: </strong> <span>06 16 33 17 97</span></p>
+                <p><strong id="categorie">Profile: </strong> <span>Développeur Full stack en formation</span></p>
+            </div>
+            <article>
+            <h2> <span id="underline">A pro</span>pos de moi</h2>
+
+                <p>Devenu enseignant de la conduite et de la sécurité routière en 2009 puis formateur d’enseignant en 2016, j’occupais le poste de directeur pédagogique chez William’s Formation Pro et William’s auto-école à Rodez jusqu’en Janvier 2024.
+                </p>
+                <p>Avide de connaissance et de perfectionnement, passionné par l’informatique depuis mon adolescence et ayant des notions en langage html, css et php, je souhaite aujourd’hui obtenir le titre professionnel de développeur full stack.
+                </p>
+                <p>Motivé par l'idée de grandir auprès de mes pairs et de me nourrir de leurs savoirs ainsi que de leurs savoir-faire, je candidate dans votre entreprise pour un stage non-rémunéré du 6 janvier 2025 au 21 mars 2025.
+                </p>
+            </article>
+        </section>
+        <section id="skills" class="soft_skills">
+            <article>
+                <h3>Hard Skills</h3>
+            </article>
+            <article>
+                <h3>Soft skills</h3>
+                </article>
+        </section>
+        <section id="cv">
+            <article id="parcours_pro">
+                <h2> <span id="underline">Parco</span>urs professionnel</h2>
+                <p>Un parcours riche et varié qui a permis de me construire tant dans les soft-skills que dans les hard-skills.</p>           
+                <div>
+                    <h3>Dernier emploi</h3>
+                        <div>
+                        <h4>William's formation pro et William's auto-école</h4>
+                        <p><em>Directeur pédagogique. En charge de la formation des stagiaires au titre professionnel d'enseignant de la conduite et de la sécurité routière.<br>Renforcement pédagogique des enseignants de la conduite titulaire.
+                            <br>Formateur en sécurité routière dans les entreprises, les établisements publics et scolaires.
+                        </em></p>
+                        <ul>
+                            <li>William's Formation Pro -William's auto-école</li>
+                            <li>Etablissment fermé</li>
+                        </ul>
+                        </div>
+                </div>
+                <div>
+                    <h3>Etudes</h3>
+                </div>
+                <div>
+                    <h3>Expériences professionnelles</h3>
+                </div>
+            </article>
+            <article id="testimonials"></article>
+        </section>
+
+        <section id="portfolio">
+            <div>
+                <h2> <span id="underline">Port</span>folio</h2>
+                <p>En cours de construction</p>
+            </div>
+            <div>
+                <ul>
+                    <li>All</li>
+                    <li>Projet professionnel</li>
+                    <li>projet de formation</li>
+                    <li>Projet de stage</li>
+                </ul>
+            </div>
+
+        </section>
+        <section id="contact">
+            <div>
+                <h2> <span id="underline">Cont</span>act</h2>
+                <p>N'hésitez pas à me contacter.</p>
+            </div>
+            <div>
+                <i class=""></i>
+                <div>
+                  <h3>Adresse</h3>
+                  <p>4 rue du fer à cheval, 12850 Onet-le-château</p>
+                </div>
+            </div>
+
+            <div>
+                <i class=""></i>
+                <div>
+                  <h3>N° Mobile</h3>
+                  <p>06 16 33 17 97</p>
+                </div>
+            </div>
+            <div>
+                <i class=""></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>cedric.deswarte81@gmail.com</p>
+                </div>
+            </div>
+
+            <form id="champ">
+                <article id="input">
+                    <label for="name"></label>
+                    <input id="name" type="text" name="name" placeholder="Nom-Prénom">
+                    <span id="nameErreur"></span>
+                </article>
+        
+                <article id="input">
+                    <label for="prenom"></label>
+                    <input id="prenom" type="text" name="prenom" placeholder="Prénom">
+                    <span id="prenomErreur"></span>
+                </article>
+        
+                <article id="input">
+                    <label for="objet"></label>
+                    <input id="objet" type="text" name="pseudo" placeholder="Objet">
+                    <span id="objetErreur"></span>
+                </article>
+        
+                <article id="courriel"> 
+                    <label for="courriel"></label>
+                    <input id="mail" type="email" name="courriel" placeholder="Courriel">
+                    <span id="mailErreur"></span>
+                </article>
+        
+                <article id="input">
+                    <textarea  id="message" name="message" placeholder="Commentaires"></textarea>
+                    <span id="textErreur"></span>
+                </article>           
+                          
+                <article class="contactBtn">
+                        <button id="contactBtn" type="submit">envoyer</button> 
+                        <span id="envoiFormulaire"></span>              
+                </article>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li><a href="#about_me"></a>Présentation</li>
+                <li><a href="#skills"></a>Skills</li>
+                <li><a href="#cv"></a>CV</li>
+                    <ul>
+                        <li><a href="#parcours_pro"></a>Parcours professionnel</li>
+                        <li><a href="#testimonials"></a>Recommandations</li>
+                    </ul>
+                <li><a href="#portfolio"></a>Portfolio</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="js/script_formulaire.js"></script>
+</body>
+</html>

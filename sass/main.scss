@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:after, *:before {
+    box-sizing: inherit;
+  }
+  
+  *::first-letter {
+    text-transform: capitalize;
+  }
+
+header {
+    background: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+#photo_cv {
+    width: 50%;
+}
+
+#categorie {
+    color: rgb(70, 70, 70);
+}
+
+#underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(57, 57, 255);
+}
+
+p {
+    color: rgb(104, 99, 99);
+}
